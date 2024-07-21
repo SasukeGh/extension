@@ -16,7 +16,7 @@
     "default_title": "Keep Site Active"
   },
   "icons": {
-    "48": "icons/icon.png"
+    "48": "Icons/icon.png"
   },
   "applications": {
     "gecko": {
@@ -25,5 +25,4 @@
     }
   },
   "update_url":"https://SasukeGh.github.io/extension/updates.json"
-"
 }
