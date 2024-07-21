@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Keep Site Active",
+  "version": "1.0",
+  "description": "Keeps a website active in the background.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "background"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Keep Site Active"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "keep-site-active@example.com",
+      "strict_min_version": "68.0"
+    }
+  },
+  "update_url": "https://1drv.ms/f/c/b1608f68b7c204f9/EoaF_ijd-iFEkb3ZmZeB4nUBoJ3QmnCgXhw3CZV4-8H70w"
+}
